@@ -31,11 +31,40 @@ ul {
 }
 
 #nav-logo {
-    font-size: 30px;
-    font-weight: 700;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#hero-section {
+  min-height: 96vh;
+  background-image: url(./images/castle-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+#hero-btns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
 a {
-    color: rgb(214, 214, 214);
-    text-decoration: none;
+  color: rgb(214, 214, 214);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+button {
+  cursor: pointer;
+  padding: 20px 40px;
+  font-size: 30px;
+  background-color: maroon;
+  border: none;
+  border-radius: 5px;
 }
